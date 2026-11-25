@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Mohammad Ismail, BS Computer Science student at Iqra University, Islamabad.">
+  <meta name="author" content="Mohammad Ismail">
+  <meta name="keywords" content="portfolio, HTML, CSS, Iqra University, computer science">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Favourite Media | Mohammad Ismail Portfolio</title>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo">Mohammad Ismail</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="media.html" class="active">Favourite Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Favourite Media</h2>
+    <div class="media-grid">
+      <section class="media-left">
+        <h3>Social Media Posts</h3>
+        <article class="post">
+          <h4>@codewithismail</h4>
+          <p>Finished my first portfolio website using only HTML and CSS. Flexbox and Grid are amazing! #webdev</p>
+        </article>
+        <article class="post">
+          <h4>@iqrauniversity</h4>
+          <p>Wishing all students the best for the semester. Keep learning, keep growing! #IqraUniversity</p>
+        </article>
+        <article class="post">
+          <h4>@techdaily</h4>
+          <p>Tip: always use semantic tags like header, nav, section and footer. They help SEO and accessibility.</p>
+        </article>
+        <h3>Images</h3>
+        <figure>
+          <img src="images/profile.png" alt="Local profile image" width="200" height="200">
+          <figcaption>Local image (stored in the images folder)</figcaption>
+        </figure>
+        <figure>
+          <img src="https://picsum.photos/600/300" alt="Random online image from picsum.photos" width="600" height="300">
+          <figcaption>Online image (loaded from picsum.photos)</figcaption>
+        </figure>
+      </section>
+      <section class="media-right">
+        <h3>Favourite YouTube Videos</h3>
+        <div class="video"><iframe src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Crash Course" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/jNQXAC9IJRE" title="Me at the zoo" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/9bZkp7q19f0" title="Gangnam Style" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/kJQP7kiw5Fk" title="Despacito" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Bohemian Rhapsody" allowfullscreen loading="lazy"></iframe></div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Mohammad Ismail | Iqra University, H-9 Campus, Islamabad | CSC 337 Assignment 1</p>
+  </footer>
+</body>
+</html>
